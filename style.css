@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2; /* 设置背景色 */
+  }
+  
+  h1 {
+    color: #333; /* 设置标题颜色 */
+  }
+  
+  #timerDisplay {
+    font-size: 48px; /* 增大计时器字体大小 */
+    margin-bottom: 30px; /* 增大计时器底部间距 */
+  }
+  
+  button {
+    font-size: 18px; /* 增大按钮字体大小 */
+    margin: 10px; /* 增大按钮间距 */
+    padding: 12px 24px; /* 增大按钮内边距 */
+    cursor: pointer;
+    background-color: #4CAF50; /* 设置按钮背景色 */
+    color: white; /* 设置按钮文字颜色 */
+    border: none;
+    border-radius: 5px; /* 圆角边框 */
+    transition: background-color 0.3s; /* 按钮背景色渐变 */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* 悬停时背景色变化 */
+  }
+  
+  label {
+    font-size: 16px; /* 设置标签字体大小 */
+    color: #555; /* 设置标签文字颜色 */
+  }
+  
+  input[type="number"] {
+    width: 60px; /* 设置输入框宽度 */
+    padding: 8px; /* 增大输入框内边距 */
+    border-radius: 5px; /* 圆角边框 */
+    border: 1px solid #ccc; /* 设置输入框边框 */
+  }
+  
+  select {
+    padding: 8px; /* 增大下拉菜单内边距 */
+    border-radius: 5px; /* 圆角边框 */
+    border: 1px solid #ccc; /* 设置下拉菜单边框 */
+  }
+  
