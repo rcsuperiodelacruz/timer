@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Timer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Simple Timer</h1>
+<div id="timerDisplay">00:00</div>
+<button id="startButton">Start</button>
+<button id="stopButton">Stop</button>
+<button id="resetButton">Reset</button><br><br>
+<label for="timeInput">Set Time (minutes): </label>
+<input type="number" id="timeInput" min="1" value="5"><br><br>
+<label for="soundSelect">Choose Alert Sound: </label>
+<select id="soundSelect">
+  <option value="sound1.mp3">Sound 1</option>
+  <option value="sound2.mp3">Sound 2</option>
+  <option value="sound3.mp3">Sound 3</option>
+</select>
+<script src="script.js"></script>
+</body>
+</html>
